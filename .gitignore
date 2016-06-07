@@ -1,6 +1,15 @@
 *~
-*.pyc
-*.pyo
+### OSX ###
+.DS_Store
+
+### Generated Files ###
+*.pot
+*.py[cod]
+__pycache__
+.idea
+_build
+*.log
+
 .installed.cfg
 bin
 develop-eggs
@@ -9,9 +18,11 @@ downloads
 eggs
 parts
 src/*.egg-info
-.DS_Store
 build/
 src/contacts/locale/*/LC_MESSAGES/*.mo
 
 /.project
 /.pydevproject
+
+### Project Specific ###
+*.db

@@ -6,12 +6,13 @@ An Address Book for keeping People on Companies.
 Requirements
 ------------
 
-* Python_: 2.4 and higher (but lower than 3)
-* Django_: 1.1.1
+* Python_: 2.7+ (but lower than 3)
+* Django_: 1.9+ supported
 
  * django.contrib.auth
  * django.contrib.contenttypes
  * django.contrib.comments
+
 
 Thanks
 ------
